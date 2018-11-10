@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <button onclick="makeitbold()">B</button>
+    <button onclick="italic()">I</button>
+    <button onclick="underline()">U</button>
+    <select id= "changingfont" onchange="changingfont()"> 
+        <option value="TimesNewRoman">TimesNewRoman</option>
+        <option value="Arial">Arial</option>
+        <option value="Calibri">Calibri</option>
+    </select>
+    <select id= "changing textsize" onchange="changingtextsize()">
+        <option value="10pt">10</option>
+        <option value="11pt">11</option>
+        <option value="12pt">12</option>
+        <option value="13pt">13</option>
+    </select>
+    <select id= "changing textcolour" onchange="changingtextcolour()">
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="red">Red</option>
+        <option value="black">Black</option>
+    </select>
+    <select id= "changing textdisplay" onchange="changingtextdisplay()">
+        <option value="Justify">Justify</option>
+        <option value="Center">Center</option>
+        <option value="Left">Left</option>
+        <option value="Right">Right</option>
+    </select>
+    <p><textarea id="text">GoMyCode is a cool place</textarea>
+    </p>
+    </body>
+<script src="main.js"></script>
+</html>
